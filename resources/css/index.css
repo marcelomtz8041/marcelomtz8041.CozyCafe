@@ -1,0 +1,129 @@
+html{
+    font-family: Helvetica;
+}
+body{
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+/* CSS for the header and nav var */
+
+.header{
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header img{
+    height: 50px;
+    margin: 10px;
+    align-content: flex-end;
+}
+ul{
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+li{
+    display: inline-flex;
+    text-decoration: underline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* CSS for the mission */
+
+.mission{
+    display: flex;
+    height: 700px;
+    max-width: 1200px;
+    text-align: center;
+    background-image: url('../images/img-mission-background.jpg');
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.mission-text{
+    background-color: black;
+}
+
+/* CSS for the tea of the month */
+
+.tea-of-month{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.tea-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-images img{
+    height: 200px;
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.tea-images h4{
+    margin-top: 10px;
+}
+
+/* CSS for Locations */
+
+.locations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 500px;
+    max-width: 1200px;
+    background-image: url("../images/img-locations-background.jpg");
+    margin-left: auto;
+    margin-right: auto;
+}
+.location-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.location{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 300px;
+    background-color: black;
+    margin-top: 15px;
+}
+
+.oakdale{
+    opacity: 1;
+}
+
+/* CSS for Contact Info */
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    justify-content: center;
+    text-align: center;
+}
+
+.copyright{
+    text-align: left;
+    margin-left: 20px;
+}
